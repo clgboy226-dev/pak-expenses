@@ -1,0 +1,69 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+
+# Environment variables
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+
+# Python related (if any Python files exist in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+
+# TypeScript/JavaScript specific
+*.tsbuildinfo
+*.tsx.swp
+*.js.swp
+
+# Next.js specific
+.next/
+out/
+.next/cache/
+
+# Temporary files
+*.tmp
+*.temp
+```

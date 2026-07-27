@@ -1,0 +1,72 @@
+{
+  "name": "Fashion Vault by Sami",
+  "short_name": "Fashion Vault",
+  "description": "Premium fashion affiliate marketplace featuring curated products from top stores worldwide",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c67850",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "fashion", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shop Women's Fashion",
+      "short_name": "Women",
+      "description": "Browse women's fashion collection",
+      "url": "/category/womens-fashion",
+      "icons": [{ "src": "/icon-women.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Shop Men's Fashion",
+      "short_name": "Men",
+      "description": "Browse men's fashion collection",
+      "url": "/category/mens-fashion",
+      "icons": [{ "src": "/icon-men.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Flash Deals",
+      "short_name": "Deals",
+      "description": "View limited time offers",
+      "url": "/deals",
+      "icons": [{ "src": "/icon-deals.png", "sizes": "96x96" }]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
